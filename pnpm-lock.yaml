@@ -2526,7 +2526,6 @@ packages:
       is-hex-prefixed: 1.0.0
       strip-hex-prefix: 1.0.0
     dev: true
-    bundledDependencies: false
 
   /evp_bytestokey@1.0.3:
     resolution: {integrity: sha512-/f2Go4TognH/KvCISP7OUsHn85hT9nUkxxA9BEWxFn+Oj9o8ZNLm/40hdlgSLyuOimsrTKLUMEorQexp/aPQeA==}
@@ -2939,7 +2938,7 @@ packages:
       ts-node: 10.2.1(@types/node@16.6.2)(typescript@4.3.5)
       tsort: 0.0.1
       typescript: 4.3.5
-      undici: 5.26.0
+      undici: 5.28.3
       uuid: 8.3.2
       ws: 7.5.3
     transitivePeerDependencies:
@@ -4785,8 +4784,8 @@ packages:
     hasBin: true
     dev: true
 
-  /undici@5.26.0:
-    resolution: {integrity: sha512-MLqGMyaJk2ubSl7FrmWuV7ZOsYWmdF7gcBHDRxm4AR8NoodQhgy3vO/D1god79HoetxR0uAeVNB65yj2lNRQnQ==}
+  /undici@5.28.3:
+    resolution: {integrity: sha512-3ItfzbrhDlINjaP0duwnNsKpDQk3acHI3gVJ1z4fmwMK31k5G9OVIAMLSIaP6w4FaGkaAkN6zaQO9LUvZ1t7VA==}
     engines: {node: '>=14.0'}
     dependencies:
       '@fastify/busboy': 2.0.0
