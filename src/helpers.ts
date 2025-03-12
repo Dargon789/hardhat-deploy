@@ -537,6 +537,10 @@ export function addHelpers(
       nonce: options.nonce,
     };
 
+    if (options.customData !== undefined) {
+      overrides.customData = options.customData;
+    }
+
     const factory = new DeploymentFactory(
       getArtifact,
       linkedArtifact,
